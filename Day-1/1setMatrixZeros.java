@@ -10,7 +10,6 @@ TC - > O(n*m *(n + m)), S.C -> O(1)
 class Solution {
     public void setZeroes(int[][] matrix) {
         
-       kousik das
         
         for(int i=0;i<matrix.length;i++){
             for(int j=0;j<matrix[0].length;j++){
@@ -82,7 +81,9 @@ class Solution {
 // Method 3 - Optimal Solution
 
 /*
-We can use the first row and first column of the matrix to store the status of the rows and columns respectively. The problem will occur for the status of first row and column which can be handled using two variables which will store the status of the first row and column (Think!)
+We can use the first row and first column of the matrix to store the status of the rows and columns respectively. 
+The problem will occur for the status of first row and column which can be handled using two variables which will store the 
+status of the first row and column (Think!)
 
 Solution Steps
 1.Initialize firstRow and firstCol to false. These two variables will store the status of the first row and first column.
